@@ -1,0 +1,94 @@
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    width: 300px;
+    margin-bottom: 16px;
+    transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-id {
+    font-size: 14px;
+    color: #333;
+    font-weight: 600;
+}
+
+.priority-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+
+.card-title {
+    font-size: 18px;
+    color: #000;
+    margin: 16px 0;
+    font-weight: 500;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.feature-request {
+    font-size: 14px;
+    color: #666;
+}
+
+.profile-initials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4a90e2; 
+    color: #fff;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 8px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-name {
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .card-title {
+        font-size: 16px;
+    }
+
+    .priority-icon {
+        width: 20px;
+        height: 20px;
+    }
+}

@@ -1,0 +1,25 @@
+.k-board {
+  display: flex;
+  justify-content: space-between;
+}
+
+.k-column {
+  flex: 1;
+  margin: 10px;
+}
+
+.k-column h2 {
+  display: contents;
+  text-align: left;
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
